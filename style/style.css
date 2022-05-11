@@ -9,11 +9,18 @@ body {
 	position: relative;
 	scroll-snap-type: y mandatory;
 	overflow-x: hidden;
+	overflow-y: scroll;
 	height: 100vh;
 }
 
 html {
 	scroll-behavior: smooth;
+}
+
+.contain {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
 }
 
 /* navbar */
